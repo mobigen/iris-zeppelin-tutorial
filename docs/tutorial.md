@@ -7,8 +7,6 @@
 
 ![Zeppelin 메인 페이지](images/001.zeppelin_main.png)
 
-\newpage
-
 상단의 Interpreter 탭으로 이동하여 원하는 추가 설정을 합니다.
 
 Zeppelin 브라우저의 인터프리터 탭으로 이동 후, Create 버튼을 클릭합니다.
@@ -21,8 +19,6 @@ Name과 Interpreter를 선택한 후, Properties에 아래와 같은 형식으�
 |zeppelin.iris.rpc.port|4400|
 
 ![Zeppelin 인터프리터](images/002.zeppelin_interpreter.png)
-
-\newpage
 
 ## Spark on IRIS 사용 방법
 
