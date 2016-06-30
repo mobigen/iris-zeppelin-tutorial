@@ -53,3 +53,5 @@ select * from nation
 
 ## IRIS Interpreter 사용 방법
 노트북에서 `%iris`를 붙인 후, 사용하고자 하는 iplus 명령어 혹은 쿼리를 수행합니다.
+
+![IRIS Interpreter](https://raw.githubusercontent.com/mobigen/iris-zeppelin-tutorial/master/docs/images/004.iris_interpreter.png)
