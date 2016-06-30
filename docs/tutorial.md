@@ -5,7 +5,7 @@
 ## Zeppelin Interpreter 생성 방법
 웹 브라우저를 통해 Zeppelin이 설치된 서버로 접속합니다. 접속이 완료되면 아래와 같은 메인 페이지가 보입니다.
 
-![Zeppelin 메인 페이지](images/001.zeppelin_main.png)
+![Zeppelin 메인 페이지](https://raw.githubusercontent.com/mobigen/iris-zeppelin-tutorial/master/docs/images/001.zeppelin_main.png)
 
 상단의 Interpreter 탭으로 이동하여 원하는 추가 설정을 합니다.
 
@@ -18,13 +18,13 @@ Name과 Interpreter를 선택한 후, Properties에 아래와 같은 형식으�
 |zeppelin.iris.rpc.host|localhost|
 |zeppelin.iris.rpc.port|4400|
 
-![Zeppelin 인터프리터](images/002.zeppelin_interpreter.png)
+![Zeppelin 인터프리터](https://raw.githubusercontent.com/mobigen/iris-zeppelin-tutorial/master/docs/images/002.zeppelin_interpreter.png)
 
 ## Spark on IRIS 사용 방법
 
 상단의 Notebook 탭으로 이동하여 Spark on IRIS를 사용합니다.
 
-![Zeppelin 노트북](images/003.zeppelin_notebook.png)
+![Zeppelin 노트북](https://raw.githubusercontent.com/mobigen/iris-zeppelin-tutorial/master/docs/images/003.zeppelin_notebook.png)
 
 ## 주의사항
 **IrisContext를 이용해 생성한 데이터프레임을 `registerTempTable` 메소드로 등록할 경우, Zeppelin SQL 인터프리터(%sql)에서 테이블 명을 찾을 수 없습니다.** 만약 SQL 인터프리터를 사용해야 한다면 반드시 SQLContext를 이용해서 데이터프레임을 생성해야 합니다.
